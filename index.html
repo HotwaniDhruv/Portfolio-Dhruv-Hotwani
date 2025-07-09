@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruv Hotwani | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0a0a0a',     // very dark black
+            secondary: '#1a1a1a',   // dark grey
+            accent: '#8b5cf6'       // soft violet accent
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-primary text-gray-100 font-sans dark">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center bg-secondary p-8">
+    <img src=c:\Users\AL-MALAK\Downloads\WhatsApp_Image_2024-05-06_at_20.26.12_84398d20-removebg-preview-removebg-preview.png alt="Dhruv Hotwani" class="w-48 h-48 rounded-full shadow-lg mb-4 object-cover border-4 border-accent">
+    <h1 class="text-4xl font-bold mb-2">Dhruv Hotwani</h1>
+    <p class="text-xl italic text-gray-400 mb-4">Certified. Creative. Code-Crafted.</p>
+    <a href="https://www.instagram.com/hotwanidhruv/?hl=en" target="_blank" class="text-accent underline">@hotwanidhruv</a>
+  </section>
+
+  <!-- About Me -->
+  <section class="p-8 max-w-4xl mx-auto bg-primary">
+    <h2 class="text-3xl font-semibold mb-4 text-accent">About Me</h2>
+    <p class="text-lg mb-4">I'm Dhruv Hotwani, a passionate graphic designer and front-end developer. I've completed certifications in Adobe and Microsoft tools, and I've worked as an intern in the AI team at Jaffer Brothers in Karachi. My mission is to blend creativity with technology to create impactful digital experiences.</p>
+  </section>
+
+  <!-- Skills -->
+  <section class="bg-secondary p-8">
+    <h2 class="text-3xl font-semibold mb-6 text-center text-accent">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <div class="bg-primary p-4 shadow rounded">HTML</div>
+      <div class="bg-primary p-4 shadow rounded">CSS</div>
+      <div class="bg-primary p-4 shadow rounded">Adobe Photoshop</div>
+      <div class="bg-primary p-4 shadow rounded">Adobe Illustrator</div>
+      <div class="bg-primary p-4 shadow rounded">Adobe Premiere Pro</div>
+      <div class="bg-primary p-4 shadow rounded">Microsoft Word</div>
+      <div class="bg-primary p-4 shadow rounded">Microsoft PowerPoint</div>
+      <div class="bg-primary p-4 shadow rounded">Microsoft Excel</div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="p-8 max-w-4xl mx-auto bg-primary">
+    <h2 class="text-3xl font-semibold mb-4 text-accent">Experience</h2>
+    <div class="bg-secondary p-6 shadow rounded mb-4">
+      <h3 class="text-2xl font-bold">Intern – AI Team</h3>
+      <p class="text-gray-300">Jaffer Brothers, Karachi</p>
+      <p class="mt-2">Worked on AI-driven projects and contributed to design elements of intelligent systems.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-secondary p-8">
+    <h2 class="text-3xl font-semibold mb-4 text-center text-accent">Contact Me</h2>
+    <form class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+      <input type="text" placeholder="Your Name" class="p-3 border border-gray-600 bg-primary text-white rounded">
+      <input type="email" placeholder="Your Email" class="p-3 border border-gray-600 bg-primary text-white rounded">
+      <textarea rows="4" placeholder="Your Message" class="p-3 border border-gray-600 bg-primary text-white rounded"></textarea>
+      <button class="bg-accent text-white py-2 rounded hover:bg-violet-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 text-sm text-gray-400 bg-primary">
+    Designed & Coded by Dhruv Hotwani
+  </footer>
+</body>
+</html>
